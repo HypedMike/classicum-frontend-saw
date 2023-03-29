@@ -1,0 +1,107 @@
+.body{
+    gap: 10px;
+}
+
+.body input{
+    color: white;
+    border: solid grey 1px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    width: 300px;
+}
+
+.body button{
+    color: white;
+    border: solid grey 1px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    width: 300px;
+}
+
+
+.butt:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.nav{
+    width: 100vw;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto auto;
+}
+.nav button{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid grey 1px;
+}
+
+.nav button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.userInfo{
+    border: solid white 1px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.userInfo button{
+    width: min-content;
+}
+
+.card{
+    border: solid white 1px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 90vw;
+    margin-bottom: 10px;
+}
+
+.card div table{
+    width: 100%;
+}
+
+.card div table tr{
+    width: 50%;
+}
+
+.card div table tr td{
+    border-bottom: solid gray 1px;
+}
+
+.card div button{
+    border: none;
+    background-color: rgb(97, 97, 97);
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.card div button:hover{
+    cursor: pointer;
+    background-color: black;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .nav{
+        display: flex;
+        flex-direction: column;
+    }
+}

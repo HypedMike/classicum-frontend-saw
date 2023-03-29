@@ -1,0 +1,35 @@
+.body{
+    margin: 10px;
+    min-height: 100vh;
+}
+
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 90vh;
+}
+
+.slideshow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+}
+
+@keyframes zoomIn {
+    from {transform: scale(1); box-shadow: 0px 0px 0px black;}
+    to {transform: scale(1.2); box-shadow: 0px 0px 10px black;}
+}
+
+@media only screen and (max-width: 800px) {
+    .slideshow{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

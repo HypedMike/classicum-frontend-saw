@@ -1,0 +1,75 @@
+.body{
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.general_person{
+    display: flex;
+    flex-direction: column  ;
+    align-items: center;
+    justify-content:space-between;
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: rgb(39, 39, 39);
+    padding: 30px;
+    width: min-content;
+    border-radius: 20px;
+    margin: 30px;
+    width: 300px;
+    height: 400px;
+}
+
+.table{
+    display: grid;
+    grid-template-columns: 50% auto;
+    width: 100%;
+    margin: 30px 0px 30px 0px;
+}
+
+.table div{
+    margin-bottom: 10px;
+    border-bottom: solid rgb(121, 121, 121) 1px;
+}
+
+.table div ul li{
+    list-style: none;
+}
+
+.general_person img{
+    border-radius: 100%;
+    border: solid white 3px;
+}
+
+.person{
+    margin: 10px;
+
+}
+
+.general_person > *{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.general_person > * > * > *{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+.general_person div ul{
+    list-style: none;
+}
+
+.people_list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 800px) {
+    .table{
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 100%;
+        margin: 30px 0px 30px 0px;
+    }
+}

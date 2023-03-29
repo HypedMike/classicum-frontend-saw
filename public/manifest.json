@@ -1,0 +1,17 @@
+{
+    "name": "Classicum",
+    "short_name": "CSC",
+    "theme_color": "black",
+    "background_color": "#FFFFFF",
+    "display": "standalone",
+    "scope": ".",
+    "start_url": "./",
+    "description": "Classic is the way",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "https://www.classicumeventi.com/assets/logo.png",
+            "sizes": "1024x1024"
+        }
+    ]
+}

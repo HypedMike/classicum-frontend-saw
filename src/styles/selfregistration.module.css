@@ -1,0 +1,48 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+    margin: 20px;
+    gap: 30px
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid white 1px;
+    padding: 30px;
+    width: min-content;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.inputs select{
+    border: solid grey 2px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+.inputs input{
+    border: solid grey 2px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+.inputs button{
+    border: solid grey 2px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+.inputs button:hover{
+    cursor: pointer;
+    background-color: black;
+}

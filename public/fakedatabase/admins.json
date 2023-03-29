@@ -1,0 +1,8 @@
+[
+    {
+        "name": "admin",
+        "surname": "m",
+        "password": "root",
+        "admin_level": 15
+    }
+]

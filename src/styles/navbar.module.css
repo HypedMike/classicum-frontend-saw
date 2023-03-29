@@ -1,0 +1,71 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: solid rgb(175, 175, 175) 1px;
+}
+.title button{
+    background-color: transparent;
+    border: none;
+    filter: invert(1);
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons button{
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.buttons button:hover{
+    cursor: pointer;
+}
+
+.footer{
+    padding: 10px;
+    background-color: rgb(63, 63, 63);
+    position: relative;
+    bottom: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.footer div{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media only screen and (max-width: 800px) {
+    .navbar{
+        flex-direction: column;
+        padding: 10px;
+        gap: 10px;
+        font-size: 2em;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .title{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .buttons{
+        flex-direction: column;
+        font-size: 0.8em;
+    }
+}
